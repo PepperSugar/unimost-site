@@ -302,7 +302,10 @@ strong { font-weight: 700; }
 .hero-content {
   position: relative;
   z-index: 1;
-  padding: 100px 0 120px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 28px 120px;
 }
 .hero-eyebrow {
   display: inline-flex;
@@ -1310,6 +1313,7 @@ textarea.form-control { resize: vertical; min-height: 140px; }
   .lang-toggle-desktop { display: none; }
 
   /* Hero */
+  .hero-content { padding: 72px 24px 96px; }
   .hero-actions { flex-direction: column; align-items: flex-start; }
 
   /* Layouts */
@@ -1328,6 +1332,7 @@ textarea.form-control { resize: vertical; min-height: 140px; }
 }
 
 @media (max-width: 480px) {
+  .hero-content  { padding: 56px 20px 80px; }
   .stats-grid    { grid-template-columns: 1fr 1fr; }
   .project-specs { grid-template-columns: 1fr 1fr; }
   .project-hero-gallery { aspect-ratio: 16/10; }
