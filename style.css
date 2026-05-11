@@ -9,6 +9,7 @@
 
 /* ─── Custom Properties ────────────────────────────────── */
 :root {
+  color-scheme: only light;
   --green:       #47B654;
   --green-d:     #38923f;
   --green-dd:    #2c7333;
